@@ -46,3 +46,26 @@ let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
 " Always show gutter to avoid flicker
 let g:gitgutter_sign_column_always=1
 
+
+" ===========================================================================
+" Various helper
+
+" Toggle line wrap
+nnoremap <Leader>wr :set wrap! wrap?<CR>
+
+" Toggle whitespace display
+nnoremap <Leader>li :set list! list?<CR>
+
+" Cursor Highlight
+nnoremap <Leader>cx :set cursorcolumn! cursorline!<CR>
+
+" Highlight Word Under Cursor
+
+" Case sensitive, partial match inclusive.
+nnoremap <Leader>hi :set hlsearch<CR>:let @/='<C-r><C-w>'<CR>
+" Case sensitive, no partial match.
+nnoremap <Leader>ho :set hlsearch<CR>:let @/='\<<C-r><C-w>\>'<CR>
+" Case insensitive, partial match inclusive.
+nnoremap <Leader>hu :set hlsearch<CR>:let @/='<C-r><C-w>\c'<CR>
+" Case insensitive, no partial match.
+nnoremap <Leader>hy :set hlsearch<CR>:let @/='\<<C-r><C-w>\>\c'<CR>
