@@ -15,3 +15,6 @@ set hidden
 
 set colorcolumn=78
 
+" Remove trailing whitespace on save
+autocmd BufWritePre * :%s/\s\+$//e
+
