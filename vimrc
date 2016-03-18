@@ -6,4 +6,6 @@ else
 	colorscheme Tomorrow-Night-Bright
 endif
 
+set relativenumber
+set number
 
