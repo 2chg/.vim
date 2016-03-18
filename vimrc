@@ -11,6 +11,8 @@ let mapleader=" "
 set relativenumber
 set number
 
+set hlsearch
+
 set hidden
 
 set colorcolumn=78
