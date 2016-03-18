@@ -11,5 +11,7 @@ let mapleader=" "
 set relativenumber
 set number
 
+set hidden
+
 set colorcolumn=78
 
