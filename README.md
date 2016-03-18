@@ -41,6 +41,7 @@ Plugins
 The following additional plugins are uses (as *git submodules*):
 
 * [sensible.vim][sensible.vim] for sensible configuration defaults
+* [lightline][lightline] for sexier status line
 
 Credits
 -------
@@ -51,4 +52,5 @@ This work is inspired by an article form *Marc G Gauthier* about his
 
 [pathogen]: https://github.com/tpope/vim-pathogen "pathogen.vim by Tim Pope"
 [sensible.vim]: https://github.com/tpope/vim-sensible "sensible.vim by Tim Pope"
+[lightline]: https://github.com/itchyny/lightline.vim "lightline by itchyny"
 [vimrcFromScratch]: http://marcgg.com/blog/2016/03/01/vimrc-example/ "Vim Configuration From Scratch in 2016 by Marc G Gauthier"
