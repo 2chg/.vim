@@ -11,6 +11,8 @@ let mapleader=" "
 set relativenumber
 set number
 
+set scrolloff=5
+
 set hlsearch
 
 set hidden
