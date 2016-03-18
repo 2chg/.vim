@@ -47,6 +47,7 @@ The following additional plugins are uses (as *git submodules*):
 * [supertab][supertab] for autocomplete with the tab key
 * [fugitive][fugitive] as Git wrapper
 * [gitgutter][gitgutter] for Git indicators in the linenumber gutter
+* [multiple-cursors][multiple-cursors] for multiple cursor support
 
 Credits
 -------
@@ -63,4 +64,5 @@ This work is inspired by an article form *Marc G Gauthier* about his
 [supertab]: https://github.com/ervandew/supertab "Supertab by Eric Van Dewoestine"
 [fugitive]: https://github.com/tpope/vim-fugitive.git "Fugitive by Tim Pope"
 [gitgutter]: https://github.com/airblade/vim-gitgutter "gitgutter by Andy Stewart"
+[multiple-cursors]: https://github.com/terryma/vim-multiple-cursors/ "vim-multiple-cursors by Terry Ma"
 [vimrcFromScratch]: http://marcgg.com/blog/2016/03/01/vimrc-example/ "Vim Configuration From Scratch in 2016 by Marc G Gauthier"
