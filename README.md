@@ -44,6 +44,7 @@ The following additional plugins are uses (as *git submodules*):
 * [lightline][lightline] for sexier status line
 * [nerdcommenter][nerdcommenter] for easier (un)commenting of code
 * [nerdtree][nerdtree] for easier file browsing
+* [supertab][supertab] for autocomplete with the tab key
 
 Credits
 -------
@@ -57,4 +58,5 @@ This work is inspired by an article form *Marc G Gauthier* about his
 [lightline]: https://github.com/itchyny/lightline.vim "lightline by itchyny"
 [nerdcommenter]: https://github.com/scrooloose/nerdcommenter "nerdcommenter by Martin Grenfell"
 [nerdtree]: https://github.com/scrooloose/nerdtree "nerdtree by Martin Grenfell"
+[supertab]: https://github.com/ervandew/supertab "Supertab by Eric Van Dewoestine"
 [vimrcFromScratch]: http://marcgg.com/blog/2016/03/01/vimrc-example/ "Vim Configuration From Scratch in 2016 by Marc G Gauthier"
