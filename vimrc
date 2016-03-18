@@ -6,6 +6,8 @@ else
 	colorscheme Tomorrow-Night-Bright
 endif
 
+let mapleader=" "
+
 set relativenumber
 set number
 
