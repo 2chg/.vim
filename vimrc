@@ -39,3 +39,10 @@ nmap <leader>j :NERDTreeFind<CR>
 " Don't display some files
 let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
 
+
+" ===========================================================================
+" Git Gutter configuration
+
+" Always show gutter to avoid flicker
+let g:gitgutter_sign_column_always=1
+
