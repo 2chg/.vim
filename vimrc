@@ -9,3 +9,5 @@ endif
 set relativenumber
 set number
 
+set colorcolumn=78
+
