@@ -43,6 +43,7 @@ The following additional plugins are uses (as *git submodules*):
 * [sensible.vim][sensible.vim] for sensible configuration defaults
 * [lightline][lightline] for sexier status line
 * [nerdcommenter][nerdcommenter] for easier (un)commenting of code
+* [nerdtree][nerdtree] for easier file browsing
 
 Credits
 -------
@@ -55,4 +56,5 @@ This work is inspired by an article form *Marc G Gauthier* about his
 [sensible.vim]: https://github.com/tpope/vim-sensible "sensible.vim by Tim Pope"
 [lightline]: https://github.com/itchyny/lightline.vim "lightline by itchyny"
 [nerdcommenter]: https://github.com/scrooloose/nerdcommenter "nerdcommenter by Martin Grenfell"
+[nerdtree]: https://github.com/scrooloose/nerdtree "nerdtree by Martin Grenfell"
 [vimrcFromScratch]: http://marcgg.com/blog/2016/03/01/vimrc-example/ "Vim Configuration From Scratch in 2016 by Marc G Gauthier"

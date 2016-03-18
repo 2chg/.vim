@@ -20,3 +20,22 @@ set colorcolumn=78
 " Remove trailing whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
 
+
+" ===========================================================================
+" NERD Tree configuration
+
+" Right arrow to open a node
+let NERDTreeMapActivateNode='<right>'
+
+" Display hidden files
+let NERDTreeShowHidden=1
+
+" Toggle tree with <Leade> + n
+nmap <leader>n :NERDTreeToggle<CR>
+
+" Locate the focused file in the tree with <Leader> + j
+nmap <leader>j :NERDTreeFind<CR>
+
+" Don't display some files
+let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
+
