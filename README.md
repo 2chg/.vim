@@ -10,8 +10,7 @@ Installation
 
 Just clone this repository in your home directory ...
 
-	cd ~
-	git clone git@github.com:2chg/.vim.git
+	git clone https://github.com/2chg/.vim.git ~/.vim
 
 ... and run the provided `install` script to create a `~/.vimrc` symlink
 and download the required submodules.
