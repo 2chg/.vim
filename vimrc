@@ -52,6 +52,9 @@ let g:gitgutter_sign_column_always=1
 " ===========================================================================
 " Various helper
 
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! w !sudo tee > /dev/null %
+
 " Toggle line wrap
 nnoremap <Leader>wr :set wrap! wrap?<CR>
 
